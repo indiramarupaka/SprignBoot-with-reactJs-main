@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.tecnotab.frontend.dao.UserRepository;
 import com.tecnotab.frontend.model.User;
 
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "http://localhost:3002")
 @RestController
 public class UserController {
 	
