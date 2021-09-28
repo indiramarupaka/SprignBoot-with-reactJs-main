@@ -53,7 +53,7 @@ class contact extends Component {
     return (
       <div className="App">
         <h1 align="center">contact</h1>
-        <h3>PSD Details</h3>
+        <h3>CONTACT Details</h3>
         <button onClick={() => this.onBtnExport()}>Export</button>
         <div className="ag-theme-alpine" style={{ height: '700px' }}>
           <AgGridReact

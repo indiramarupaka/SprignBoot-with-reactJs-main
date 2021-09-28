@@ -81,7 +81,7 @@ const handleClickOpen = () => {
   };
 
   const handleChange=()=>{
-fetch("http://localhost:8080/userslists",{method:"POST",body:JSON.stringify(formData)})
+fetch("http://localhost:8080/userslist",{method:"POST",body:JSON.stringify(formData)})
 .then(resp=>resp.json())
 .then(resp=>console.log(resp))
   }

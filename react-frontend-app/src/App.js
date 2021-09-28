@@ -21,6 +21,7 @@ function App() {
         {/* <Route path='/Scn' component={Scn} /> */}
         <Route path='/UserComponent' component={UserComponent} />
         <Route path='/contact' component={contact} />
+        <Route path='/home' component={Home} />
         <Route path='/Domain' component={Domain} />
         <Route path='/CaseStatus' component={CaseStatus} />
         <Route path='/AddUser' component={AddUser} />

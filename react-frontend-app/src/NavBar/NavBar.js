@@ -15,7 +15,7 @@ function NavBar() {
               exact
               className="nav-link"
               activeClassName="text-danger"
-              to="/"
+              to="/Home"
             >
               Home
             </NavLink>
